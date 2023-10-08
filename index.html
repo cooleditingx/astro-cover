@@ -3,48 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../landing page/style.css">
-    <title>GWC | Personal website</title>
+    <title>Eclipse</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <div class="image"></div>
-   <nav>
-     <ul>
-        <div class="container"> 
-            <li>
-                <a href="../landing page/index.html">Home</a>
-            </li>
-            <li>
-                <a href="../landing page/Portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="..">Blog</a>
-            </li>
+    <script src="/index.js" defer></script>
+    <div class="background">
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/index2.html">Eclipse seasons & orbits</a>
+                </li>
+                <li>
+                    <a href="/indexgame.html">Eclipse Game</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="showcase">
+        <img src="/assets/IMG_2750.jpg" alt="total solar eclipse">
+    </section>
+    <div class="container">
+        <h1>Eclipse</h1>
+        <p class="text">Eclipses aren't just beautiful - they are great for science! NASA scientists study eclipses to make new discoveries about the Sun, Earth, and our space environment. For over a century, solar eclipses have helped scientists decipher the Sun's structure and explosive events, find evidence for the theory of general relativity, discover a new element, and much more.</p>
+        <p class="text">An eclipse happens when a planet or a Moon gets in the way of the Sun's light. Here on Earth, we can experience two kinds of eclipses: Solar eclipses and Lunar eclipses</p>
+    </div>
+    <iframe src='https://eyes.jpl.nasa.gov/eyes-on-eclipse-web-app.html' width='100%' height='600' scrolling='auto' frameborder='0' allowfullscreen></iframe>
+    <div class="ex-container">
+      <div class="solar">
+            <h1 class="le">Solar eclipse</h1>
+            <p class="text1">A solar eclipse is when the Moon slide in front of the Sun, casting a shadow on Earth.</p>
+            <p class="text1"><strong> Solar Eclipse</strong></p>
+            <p class="text1">A total solar eclipse occur when the Moon gets in between the Sun and Earth, totally covering the Suns face. It last upto 7 minutes. </p>
+            <p class="text1"><strong> Solar Eclipse</strong></p>
+            <p class="text1">When the Moon slips between Earth and the Sun but isn't perfectly aligned, creating a crescent shape. </p>
+            <p class="text1"><strong> Solar Eclipse</strong></p>
+            <p class="text1">A unique partial eclipse where the edge of the Sun is still visible around the Moon. It is also called "The Ring Of Fire".</p>
         </div>
-        <div class="container2">
-            <li>
-                <a href="..">About</a>
-            </li>
-            <li>
-                <a href="..">Contact</a>
-            </li>
+      <div class="lunar">
+            <h1 class="le">Lunar eclipse</h1>
+            <p  class="text1">
+                A lunar eclipse occur when the Moon moves into the Earth's shadow, causing the Moon to be darkened.</p>
+                <p class="text1"><strong> Lunar eclipse</strong></p>
+                <p class="text1">It occurs when the Moon passes completely into the Earth's shadow (umbra). </p>
+                <p class="text1"><strong>Total Partial Lunar</strong></p>
+                <p class="text1">When a portion of the Moon passes through the Earth's umbral shadow.</p>
+                <p class="text1"><strong>Total Penumbral Lunar Eclipse</strong></p>
+                <p class="text1">It occurs when the Moon moves through the penumbra but does not touch its umbra.</p>
+                <img class="stickers" src="/assets/Subject 4.png" alt="">
+                <img class="stickers" src="/assets/IMG_5911.PNG" alt="">
+                <img class="stickers" src="/assets/Untitled_Artwork 5.png" alt="">
+                <img class="stickers" src="/assets/Untitled_Artwork 6.png" alt="">
+
         </div>
-     </ul>
-   </nav>
-   <h1>ABOUT ME</h1>
-   <div class="text-container">
-     <p class="one"><strong> i am dua anas, welcome to my digital planet on the internet</strong></p>
-     <p class="two">i am currently in sixth-form and a class of '25,  i love coding, astronomy, books, editing, baking and iced coffee. My favourite movie is interstellar and in my free time i listen to music, and watch movies.</p>         
-     <p class="three"> now that you have landed on this digital planet feel free to explore different parts (pages)</p>
-   </div>
-   <h1 class="vertical">Interests</h1>
-   <div class="image-box">
-    <img src="../landing page/images/Group 1.png" alt="white open book outline">
-    <img src="../landing page/images/Group 2.png" alt="telescope outline">
-    <img src="../landing page/images/Group 3.png" alt="computer outline with html tags on it's screen">
-    <img src="../landing page/images/Group 4.png" alt="oven outline">
-    <img src="../landing page/images/Group 5.png" alt="video camera outline">
-    <img src="../landing page/images/Group 7.png" alt="effiel tower outline">
-   </div>
+    </div>
+    <main>
+        <button id="myButton">Click Me to learn cool facts about eclipses!!!</button>
+    </main>
+    <div class="outline">
+        <p id="fact"></p>
+    </div>
+    <img class="tinyout" src="/assets/Subject 3.png" alt="astranout cartoon">
 </body>
 </html>
